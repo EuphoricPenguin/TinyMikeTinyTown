@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiny Town Map</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #222;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        #map-canvas {
+            image-rendering: pixelated;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="map-canvas"></canvas>
+    <script src="map-renderer.js"></script>
+</body>
+</html>
